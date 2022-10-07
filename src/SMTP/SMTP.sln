@@ -1,0 +1,57 @@
+Microsoft Visual Studio Solution File, Format Version 8.00
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SMTP", "SMTP.csproj", "{943E9E55-94BA-4AF7-939C-1987E42DE78E}"
+	ProjectSection(ProjectDependencies) = postProject
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SmtpService", "..\SmtpService\SmtpService.csproj", "{A119E090-47F0-437B-89EB-253006AC4754}"
+	ProjectSection(ProjectDependencies) = postProject
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "asn", "http://www.asn.com/asn.csproj", "{091132F3-CCA5-4870-AF31-4605F54F7055}"
+	ProjectSection(ProjectDependencies) = postProject
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MailSender", "..\..\ASN\MailSender\MailSender.csproj", "{3418A163-71DB-4307-974A-CF31BA96D47D}"
+	ProjectSection(ProjectDependencies) = postProject
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BlogContent", "..\..\ASN\blog\BlogContent\BlogContent.csproj", "{B9899CC9-0537-49C2-8B6D-07408190D03D}"
+	ProjectSection(ProjectDependencies) = postProject
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "services", "http://iranblog.com/services/services.csproj", "{3C66A004-ABDB-4F2B-A113-A8272B807BB1}"
+	ProjectSection(ProjectDependencies) = postProject
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfiguration) = preSolution
+		Debug = Debug
+		Release = Release
+	EndGlobalSection
+	GlobalSection(ProjectConfiguration) = postSolution
+		{943E9E55-94BA-4AF7-939C-1987E42DE78E}.Debug.ActiveCfg = Debug|.NET
+		{943E9E55-94BA-4AF7-939C-1987E42DE78E}.Debug.Build.0 = Debug|.NET
+		{943E9E55-94BA-4AF7-939C-1987E42DE78E}.Release.ActiveCfg = Release|.NET
+		{A119E090-47F0-437B-89EB-253006AC4754}.Debug.ActiveCfg = Debug|.NET
+		{A119E090-47F0-437B-89EB-253006AC4754}.Debug.Build.0 = Debug|.NET
+		{A119E090-47F0-437B-89EB-253006AC4754}.Release.ActiveCfg = Release|.NET
+		{091132F3-CCA5-4870-AF31-4605F54F7055}.Debug.ActiveCfg = Debug|.NET
+		{091132F3-CCA5-4870-AF31-4605F54F7055}.Debug.Build.0 = Debug|.NET
+		{091132F3-CCA5-4870-AF31-4605F54F7055}.Release.ActiveCfg = Release|.NET
+		{3418A163-71DB-4307-974A-CF31BA96D47D}.Debug.ActiveCfg = Debug|.NET
+		{3418A163-71DB-4307-974A-CF31BA96D47D}.Debug.Build.0 = Debug|.NET
+		{3418A163-71DB-4307-974A-CF31BA96D47D}.Release.ActiveCfg = Release|.NET
+		{B9899CC9-0537-49C2-8B6D-07408190D03D}.Debug.ActiveCfg = Debug|.NET
+		{B9899CC9-0537-49C2-8B6D-07408190D03D}.Debug.Build.0 = Debug|.NET
+		{B9899CC9-0537-49C2-8B6D-07408190D03D}.Release.ActiveCfg = Release|.NET
+		{B9899CC9-0537-49C2-8B6D-07408190D03D}.Release.Build.0 = Release|.NET
+		{3C66A004-ABDB-4F2B-A113-A8272B807BB1}.Debug.ActiveCfg = Debug|.NET
+		{3C66A004-ABDB-4F2B-A113-A8272B807BB1}.Debug.Build.0 = Debug|.NET
+		{3C66A004-ABDB-4F2B-A113-A8272B807BB1}.Release.ActiveCfg = Release|.NET
+		{3C66A004-ABDB-4F2B-A113-A8272B807BB1}.Release.Build.0 = Release|.NET
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+	EndGlobalSection
+	GlobalSection(ExtensibilityAddIns) = postSolution
+	EndGlobalSection
+EndGlobal
