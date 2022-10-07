@@ -1,0 +1,60 @@
+A {
+	TEXT-DECORATION: none
+}
+A:link {
+	COLOR: #3366cc; TEXT-DECORATION: none
+}
+A:visited {
+	COLOR: #663399; TEXT-DECORATION: none
+}
+A:active {
+	COLOR: #cccccc; TEXT-DECORATION: none
+}
+BODY {
+	FONT-SIZE: 10px; COLOR: #333333; FONT-FAMILY: Geneva, Verdana, Arial, Helvetica
+}
+TD {
+	FONT-SIZE: 10px; COLOR: #333333; FONT-FAMILY: Geneva, Verdana, Arial, Helvetica
+}
+CENTER {
+	FONT-SIZE: 10px; COLOR: #333333; FONT-FAMILY: Geneva, Verdana, Arial, Helvetica
+}
+P {
+	FONT-SIZE: 10px; COLOR: #333333; FONT-FAMILY: Geneva, Verdana, Arial, Helvetica
+}
+.body {
+	FONT-SIZE: 10px; COLOR: #333333; FONT-FAMILY: Geneva, Verdana, Arial, Helvetica
+}
+.content {
+	FONT-WEIGHT: normal; FONT-SIZE: 12px; COLOR: #000000; FONT-FAMILY: Helvetica, Arial, sans-serif
+}
+.disclaimer {
+	FONT-SIZE: 9px; COLOR: #999999; FONT-FAMILY: Geneva, Verdana, Arial, Helvetica
+}
+.error {
+	FONT-WEIGHT: bold; FONT-SIZE: 9px; COLOR: #990000; FONT-FAMILY: Geneva, Verdana, Arial, Helvetica
+}
+.filebrowser {
+	FONT-SIZE: 9px; COLOR: #000000; FONT-FAMILY: Geneva, Verdana, Arial, Helvetica
+}
+.form {
+	FONT-SIZE: 10px; FONT-FAMILY: Courier, "Courier New"
+}
+.headline {
+	FONT-WEIGHT: bold; FONT-SIZE: 14px; COLOR: #000000; FONT-FAMILY: Helvetica, Arial, sans-serif
+}
+.instr {
+	FONT-WEIGHT: bold; FONT-SIZE: 10px; FONT-FAMILY: Geneva, Verdana, Arial, Helvetica
+}
+.label {
+	FONT-SIZE: 9px; COLOR: #000000; FONT-FAMILY: Geneva, Verdana, Arial, Helvetica
+}
+.message {
+	FONT-SIZE: 9px; FONT-FAMILY: Geneva, Verdana, Arial, Helvetica
+}
+.preference {
+	FONT-WEIGHT: bold; FONT-SIZE: 12px; COLOR: #000000; FONT-FAMILY: Helvetica, Arial, sans-serif
+}
+.reminder {
+	FONT-SIZE: 28px; COLOR: #000000; FONT-FAMILY: "Times New Roman", Times, serif
+}
