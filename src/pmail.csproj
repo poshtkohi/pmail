@@ -1,0 +1,863 @@
+<VisualStudioProject>
+    <CSHARP
+        ProjectType = "Web"
+        ProductVersion = "7.10.3077"
+        SchemaVersion = "2.0"
+        ProjectGuid = "{3EE8937F-EA32-42E8-B563-53020136CC60}"
+    >
+        <Build>
+            <Settings
+                ApplicationIcon = ""
+                AssemblyKeyContainerName = ""
+                AssemblyName = "pmail"
+                AssemblyOriginatorKeyFile = ""
+                DefaultClientScript = "JScript"
+                DefaultHTMLPageLayout = "Grid"
+                DefaultTargetSchema = "IE50"
+                DelaySign = "false"
+                OutputType = "Library"
+                PreBuildEvent = ""
+                PostBuildEvent = ""
+                RootNamespace = "pmail"
+                RunPostBuildEvent = "OnBuildSuccess"
+                StartupObject = ""
+            >
+                <Config
+                    Name = "Debug"
+                    AllowUnsafeBlocks = "false"
+                    BaseAddress = "285212672"
+                    CheckForOverflowUnderflow = "false"
+                    ConfigurationOverrideFile = ""
+                    DefineConstants = "DEBUG;TRACE"
+                    DocumentationFile = ""
+                    DebugSymbols = "true"
+                    FileAlignment = "4096"
+                    IncrementalBuild = "false"
+                    NoStdLib = "false"
+                    NoWarn = ""
+                    Optimize = "false"
+                    OutputPath = "bin\"
+                    RegisterForComInterop = "false"
+                    RemoveIntegerChecks = "false"
+                    TreatWarningsAsErrors = "false"
+                    WarningLevel = "4"
+                />
+                <Config
+                    Name = "Release"
+                    AllowUnsafeBlocks = "false"
+                    BaseAddress = "285212672"
+                    CheckForOverflowUnderflow = "false"
+                    ConfigurationOverrideFile = ""
+                    DefineConstants = "TRACE"
+                    DocumentationFile = ""
+                    DebugSymbols = "false"
+                    FileAlignment = "4096"
+                    IncrementalBuild = "false"
+                    NoStdLib = "false"
+                    NoWarn = ""
+                    Optimize = "true"
+                    OutputPath = "bin\"
+                    RegisterForComInterop = "false"
+                    RemoveIntegerChecks = "false"
+                    TreatWarningsAsErrors = "false"
+                    WarningLevel = "4"
+                />
+            </Settings>
+            <References>
+                <Reference
+                    Name = "System"
+                    AssemblyName = "System"
+                    HintPath = "C:\WINDOWS\Microsoft.NET\Framework\v1.1.4322\System.dll"
+                />
+                <Reference
+                    Name = "System.Drawing"
+                    AssemblyName = "System.Drawing"
+                    HintPath = "C:\WINDOWS\Microsoft.NET\Framework\v1.1.4322\System.Drawing.dll"
+                />
+                <Reference
+                    Name = "System.Data"
+                    AssemblyName = "System.Data"
+                    HintPath = "C:\WINDOWS\Microsoft.NET\Framework\v1.1.4322\System.Data.dll"
+                />
+                <Reference
+                    Name = "System.Web"
+                    AssemblyName = "System.Web"
+                    HintPath = "C:\WINDOWS\Microsoft.NET\Framework\v1.1.4322\System.Web.dll"
+                />
+                <Reference
+                    Name = "System.XML"
+                    AssemblyName = "System.Xml"
+                    HintPath = "C:\WINDOWS\Microsoft.NET\Framework\v1.1.4322\System.XML.dll"
+                />
+                <Reference
+                    Name = "FreeTextBox"
+                    AssemblyName = "FreeTextBox"
+                    HintPath = "bin\FreeTextBox.dll"
+                />
+                <Reference
+                    Name = "System.Web.Services"
+                    AssemblyName = "System.Web.Services"
+                    HintPath = "C:\WINDOWS\Microsoft.NET\Framework\v1.1.4322\System.Web.Services.dll"
+                />
+            </References>
+        </Build>
+        <Files>
+            <Include>
+                <File
+                    RelPath = "about.aspx"
+                    SubType = "Form"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "about.aspx.cs"
+                    DependentUpon = "about.aspx"
+                    SubType = "ASPXCodeBehind"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "about.aspx.resx"
+                    DependentUpon = "about.aspx.cs"
+                    BuildAction = "EmbeddedResource"
+                />
+                <File
+                    RelPath = "AssemblyInfo.cs"
+                    SubType = "Code"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "Authorization.aspx"
+                    SubType = "Form"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "Authorization.aspx.cs"
+                    DependentUpon = "Authorization.aspx"
+                    SubType = "ASPXCodeBehind"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "Authorization.aspx.resx"
+                    DependentUpon = "Authorization.aspx.cs"
+                    BuildAction = "EmbeddedResource"
+                />
+                <File
+                    RelPath = "constants.cs"
+                    SubType = "Code"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "Database.cs"
+                    SubType = "Code"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "Default.aspx"
+                    SubType = "Form"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "Default.aspx.cs"
+                    DependentUpon = "Default.aspx"
+                    SubType = "ASPXCodeBehind"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "Default.aspx.resx"
+                    DependentUpon = "Default.aspx.cs"
+                    BuildAction = "EmbeddedResource"
+                />
+                <File
+                    RelPath = "Global.asax"
+                    SubType = "Component"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "Global.asax.cs"
+                    DependentUpon = "Global.asax"
+                    SubType = "Code"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "Global.asax.resx"
+                    DependentUpon = "Global.asax.cs"
+                    BuildAction = "EmbeddedResource"
+                />
+                <File
+                    RelPath = "Info.cs"
+                    SubType = "Code"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "SignIn.aspx"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "SignIn.aspx.cs"
+                    DependentUpon = "SignIn.aspx"
+                    SubType = "ASPXCodeBehind"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "SignIn.aspx.resx"
+                    DependentUpon = "SignIn.aspx.cs"
+                    BuildAction = "EmbeddedResource"
+                />
+                <File
+                    RelPath = "SignUp.aspx"
+                    SubType = "Form"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "SignUp.aspx.cs"
+                    DependentUpon = "SignUp.aspx"
+                    SubType = "ASPXCodeBehind"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "SignUp.aspx.resx"
+                    DependentUpon = "SignUp.aspx.cs"
+                    BuildAction = "EmbeddedResource"
+                />
+                <File
+                    RelPath = "test.aspx"
+                    SubType = "Form"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "test.aspx.cs"
+                    DependentUpon = "test.aspx"
+                    SubType = "ASPXCodeBehind"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "test.aspx.resx"
+                    DependentUpon = "test.aspx.cs"
+                    BuildAction = "EmbeddedResource"
+                />
+                <File
+                    RelPath = "Web.config"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "email\attachment.aspx"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "email\Attachment.aspx.cs"
+                    DependentUpon = "attachment.aspx"
+                    SubType = "ASPXCodeBehind"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "email\Attachment.aspx.resx"
+                    DependentUpon = "Attachment.aspx.cs"
+                    BuildAction = "EmbeddedResource"
+                />
+                <File
+                    RelPath = "email\Calendar.cs"
+                    SubType = "Code"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "email\Compose.aspx"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "email\Compose.aspx.cs"
+                    DependentUpon = "Compose.aspx"
+                    SubType = "ASPXCodeBehind"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "email\Compose.aspx.resx"
+                    DependentUpon = "Compose.aspx.cs"
+                    BuildAction = "EmbeddedResource"
+                />
+                <File
+                    RelPath = "email\constants.cs"
+                    SubType = "Code"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "email\Default.aspx"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "email\Default.aspx.cs"
+                    DependentUpon = "Default.aspx"
+                    SubType = "ASPXCodeBehind"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "email\Default.aspx.resx"
+                    DependentUpon = "Default.aspx.cs"
+                    BuildAction = "EmbeddedResource"
+                />
+                <File
+                    RelPath = "email\defaultSpell.aspx"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "email\EmailDatabase.cs"
+                    SubType = "Code"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "email\HtmlComponents.cs"
+                    SubType = "Code"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "email\Info.cs"
+                    SubType = "Code"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "email\RandomString.cs"
+                    SubType = "Code"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "email\Result.aspx"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "email\Result.aspx.cs"
+                    DependentUpon = "Result.aspx"
+                    SubType = "ASPXCodeBehind"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "email\Result.aspx.resx"
+                    DependentUpon = "Result.aspx.cs"
+                    BuildAction = "EmbeddedResource"
+                />
+                <File
+                    RelPath = "email\ShowAddressBook.aspx"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "email\ShowAddressBook.aspx.cs"
+                    DependentUpon = "ShowAddressBook.aspx"
+                    SubType = "ASPXCodeBehind"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "email\ShowAddressBook.aspx.resx"
+                    DependentUpon = "ShowAddressBook.aspx.cs"
+                    BuildAction = "EmbeddedResource"
+                />
+                <File
+                    RelPath = "email\ShowLetter.aspx"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "email\ShowLetter.aspx.cs"
+                    DependentUpon = "ShowLetter.aspx"
+                    SubType = "ASPXCodeBehind"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "email\ShowLetter.aspx.resx"
+                    DependentUpon = "ShowLetter.aspx.cs"
+                    BuildAction = "EmbeddedResource"
+                />
+                <File
+                    RelPath = "email\spell.css"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "email\spell.js"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "email\SpellCheck.aspx"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "email\XmlSummary.cs"
+                    SubType = "Code"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "email\AttachType\audio.gif"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "email\AttachType\flash.gif"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "email\AttachType\image.gif"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "email\AttachType\movie.gif"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "email\AttachType\mp3.gif"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "email\AttachType\pdf.gif"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "email\AttachType\text.gif"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "email\AttachType\Thumbs.db"
+                    BuildAction = "None"
+                />
+                <File
+                    RelPath = "email\AttachType\txt.gif"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "email\AttachType\unknown.gif"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "email\AttachType\word.gif"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "email\AttachType\zip.gif"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "email\fa\attachment.aspx"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "email\fa\Attachment.aspx.cs"
+                    DependentUpon = "attachment.aspx"
+                    SubType = "ASPXCodeBehind"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "email\fa\Attachment.aspx.resx"
+                    DependentUpon = "Attachment.aspx.cs"
+                    BuildAction = "EmbeddedResource"
+                />
+                <File
+                    RelPath = "email\fa\Compose.aspx"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "email\fa\Compose.aspx.cs"
+                    DependentUpon = "Compose.aspx"
+                    SubType = "ASPXCodeBehind"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "email\fa\Compose.aspx.resx"
+                    DependentUpon = "Compose.aspx.cs"
+                    BuildAction = "EmbeddedResource"
+                />
+                <File
+                    RelPath = "email\fa\Default.aspx"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "email\fa\Default.aspx.cs"
+                    DependentUpon = "Default.aspx"
+                    SubType = "ASPXCodeBehind"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "email\fa\Default.aspx.resx"
+                    DependentUpon = "Default.aspx.cs"
+                    BuildAction = "EmbeddedResource"
+                />
+                <File
+                    RelPath = "email\fa\emailf.html"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "email\fa\Result.aspx"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "email\fa\Result.aspx.cs"
+                    DependentUpon = "Result.aspx"
+                    SubType = "ASPXCodeBehind"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "email\fa\Result.aspx.resx"
+                    DependentUpon = "Result.aspx.cs"
+                    BuildAction = "EmbeddedResource"
+                />
+                <File
+                    RelPath = "email\fa\ShowAddressBook.aspx"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "email\fa\ShowAddressBook.aspx.cs"
+                    DependentUpon = "ShowAddressBook.aspx"
+                    SubType = "ASPXCodeBehind"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "email\fa\ShowAddressBook.aspx.resx"
+                    DependentUpon = "ShowAddressBook.aspx.cs"
+                    BuildAction = "EmbeddedResource"
+                />
+                <File
+                    RelPath = "email\fa\ShowLetter.aspx"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "email\fa\ShowLetter.aspx.cs"
+                    DependentUpon = "ShowLetter.aspx"
+                    SubType = "ASPXCodeBehind"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "email\fa\ShowLetter.aspx.resx"
+                    DependentUpon = "ShowLetter.aspx.cs"
+                    BuildAction = "EmbeddedResource"
+                />
+                <File
+                    RelPath = "email\fa\images\arm1.jpg"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "email\fa\images\button3.jpg"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "email\fa\images\button4.jpg"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "email\fa\images\button5.jpg"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "email\fa\images\button9.jpg"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "email\fa\images\buttonA.jpg"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "email\fa\images\buttonB.jpg"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "email\fa\images\email_06.gif"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "email\fa\images\spacer.gif"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "email\fa\images\Thumbs.db"
+                    BuildAction = "None"
+                />
+                <File
+                    RelPath = "email\images\attach.gif"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "email\images\bulk.gif"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "email\images\button22.gif"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "email\images\button23.gif"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "email\images\button24.gif"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "email\images\button25.gif"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "email\images\button26.gif"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "email\images\button27.gif"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "email\images\button28.gif"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "email\images\button29.gif"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "email\images\button2B.gif"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "email\images\button2C.gif"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "email\images\button2D.gif"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "email\images\button32.gif"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "email\images\button33.gif"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "email\images\button34.gif"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "email\images\button35.gif"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "email\images\button36.gif"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "email\images\button37.gif"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "email\images\Copy of spacer.gif"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "email\images\delete.gif"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "email\images\desc.gif"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "email\images\draft.gif"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "email\images\email_01.gif"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "email\images\email_02.gif"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "email\images\email_03.gif"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "email\images\email_04.gif"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "email\images\email_05.gif"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "email\images\email_06.gif"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "email\images\email_07.gif"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "email\images\email_08.gif"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "email\images\email_09.gif"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "email\images\email_10.gif"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "email\images\email_11.gif"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "email\images\email_12.gif"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "email\images\email_13.gif"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "email\images\email_14.gif"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "email\images\email_15.gif"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "email\images\email_16.gif"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "email\images\email_17.gif"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "email\images\email_18.gif"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "email\images\email_19.gif"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "email\images\email_20.gif"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "email\images\email_21.gif"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "email\images\email_22.gif"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "email\images\email_23.gif"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "email\images\email_24.gif"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "email\images\Email_r6_c1.gif"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "email\images\inbox.gif"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "email\images\q2.jpg"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "email\images\sent.gif"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "email\images\spacer.gif"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "email\images\spacer1.gif"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "email\images\Thumbs.db"
+                    BuildAction = "None"
+                />
+                <File
+                    RelPath = "email\images\trash.gif"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "email\js\style.js"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "email\Mime\ASCII.cs"
+                    SubType = "Code"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "email\Mime\Attachment.cs"
+                    SubType = "Code"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "email\Mime\EncoderDecoder.cs"
+                    SubType = "Code"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "email\Mime\Headers.cs"
+                    SubType = "Code"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "email\Mime\LinkList.cs"
+                    SubType = "Code"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "email\Mime\MimeBuilder.cs"
+                    SubType = "Code"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "email\Mime\MimeParser.cs"
+                    SubType = "Code"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "email\Mime\Text.cs"
+                    SubType = "Code"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "Web References\com.webservices.www\FileStream.disco"
+                    BuildAction = "None"
+                />
+                <File
+                    RelPath = "Web References\com.webservices.www\FileStream.wsdl"
+                    BuildAction = "None"
+                />
+                <File
+                    RelPath = "Web References\com.webservices.www\Reference.map"
+                    BuildAction = "None"
+                    Generator = "MSDiscoCodeGenerator"
+                    LastGenOutput = "Reference.cs"
+                />
+                <File
+                    RelPath = "Web References\com.webservices.www\Reference.cs"
+                    DependentUpon = "Reference.map"
+                    SubType = "code"
+                    BuildAction = "Compile"
+                    DesignTime = "True"
+                    AutoGen = "True"
+                />
+                <Folder
+                    RelPath = "Web References\com.webservices.www\"
+                    WebReferenceUrl = "http://www.webservices.com/FileStream.asmx?op=FileStream"
+                    UrlBehavior = "Static"
+                />
+                <Folder
+                    RelPath = "Web References\"
+                    WebReferences = "TRUE"
+                />
+            </Include>
+        </Files>
+    </CSHARP>
+</VisualStudioProject>
+

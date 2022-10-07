@@ -1,0 +1,45 @@
+Microsoft Visual Studio Solution File, Format Version 8.00
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "pmail", "http://pmail.sharif.edu/pmail.csproj", "{3EE8937F-EA32-42E8-B563-53020136CC60}"
+	ProjectSection(ProjectDependencies) = postProject
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MailSenderService", "MailSenderService\MailSenderService.csproj", "{CD06A729-A2D0-43F2-81BB-62B571D9243A}"
+	ProjectSection(ProjectDependencies) = postProject
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SmtpService", "SmtpService\SmtpService.csproj", "{A119E090-47F0-437B-89EB-253006AC4754}"
+	ProjectSection(ProjectDependencies) = postProject
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HttpProxy", "HttpProxy\HttpProxy.csproj", "{E8D0F561-7278-4189-90C9-B9FE4B59D4B0}"
+	ProjectSection(ProjectDependencies) = postProject
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfiguration) = preSolution
+		Debug = Debug
+		Release = Release
+	EndGlobalSection
+	GlobalSection(ProjectConfiguration) = postSolution
+		{3EE8937F-EA32-42E8-B563-53020136CC60}.Debug.ActiveCfg = Debug|.NET
+		{3EE8937F-EA32-42E8-B563-53020136CC60}.Debug.Build.0 = Debug|.NET
+		{3EE8937F-EA32-42E8-B563-53020136CC60}.Release.ActiveCfg = Release|.NET
+		{3EE8937F-EA32-42E8-B563-53020136CC60}.Release.Build.0 = Release|.NET
+		{CD06A729-A2D0-43F2-81BB-62B571D9243A}.Debug.ActiveCfg = Debug|.NET
+		{CD06A729-A2D0-43F2-81BB-62B571D9243A}.Debug.Build.0 = Debug|.NET
+		{CD06A729-A2D0-43F2-81BB-62B571D9243A}.Release.ActiveCfg = Release|.NET
+		{CD06A729-A2D0-43F2-81BB-62B571D9243A}.Release.Build.0 = Release|.NET
+		{A119E090-47F0-437B-89EB-253006AC4754}.Debug.ActiveCfg = Debug|.NET
+		{A119E090-47F0-437B-89EB-253006AC4754}.Debug.Build.0 = Debug|.NET
+		{A119E090-47F0-437B-89EB-253006AC4754}.Release.ActiveCfg = Release|.NET
+		{A119E090-47F0-437B-89EB-253006AC4754}.Release.Build.0 = Release|.NET
+		{E8D0F561-7278-4189-90C9-B9FE4B59D4B0}.Debug.ActiveCfg = Debug|.NET
+		{E8D0F561-7278-4189-90C9-B9FE4B59D4B0}.Debug.Build.0 = Debug|.NET
+		{E8D0F561-7278-4189-90C9-B9FE4B59D4B0}.Release.ActiveCfg = Release|.NET
+		{E8D0F561-7278-4189-90C9-B9FE4B59D4B0}.Release.Build.0 = Release|.NET
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+	EndGlobalSection
+	GlobalSection(ExtensibilityAddIns) = postSolution
+	EndGlobalSection
+EndGlobal
